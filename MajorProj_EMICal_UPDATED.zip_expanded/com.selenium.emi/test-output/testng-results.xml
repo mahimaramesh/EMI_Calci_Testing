@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="55" passed="45" failed="10" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-05T13:10:05 IST" name="CrossBrowserSuite" finished-at="2025-07-05T13:11:08 IST" duration-ms="63449">
+    <groups>
+      <group name="negative">
+        <method signature="emiTest.testMinimumInterestRateErrorMessage()[pri:14, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testMinimumInterestRateErrorMessage" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testLogoOverlap()[pri:17, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testLogoOverlap" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testInterestOverflow()[pri:18, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testInterestOverflow" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testCalculateButtonDisabledForInvalidInterest()[pri:20, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testCalculateButtonDisabledForInvalidInterest" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testPieChartInterestCalculationForExtremeInterest()[pri:21, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testPieChartInterestCalculationForExtremeInterest" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testCalculateButtonDisabledForExcessiveLoan()[pri:26, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testCalculateButtonDisabledForExcessiveLoan" class="com.selenium.emi_Tests.emiTest"/>
+      </group> <!-- negative -->
+      <group name="ui">
+        <method signature="emiTest.testPieChartDisplaysCorrectValues(double,double,java.lang.String)[pri:11, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testPieChartDisplaysCorrectValues" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testPieChartUpdatesAfterRecalculation(double,double,java.lang.String)[pri:12, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testPieChartUpdatesAfterRecalculation" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testBenefitsAndRisksDisplayed(double,double,java.lang.String)[pri:13, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testBenefitsAndRisksDisplayed" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testEMIResultAndTotalPaymentBreakdownDisplayed(double,double,java.lang.String)[pri:15, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testEMIResultAndTotalPaymentBreakdownDisplayed" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testScrollFunctionality()[pri:19, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testScrollFunctionality" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testPaymentTermIsInput()[pri:22, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testPaymentTermIsInput" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testHighLoanWarning()[pri:25, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testHighLoanWarning" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testHighLoanWarningForMidRangeAmount()[pri:27, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testHighLoanWarningForMidRangeAmount" class="com.selenium.emi_Tests.emiTest"/>
+      </group> <!-- ui -->
+      <group name="regression">
+        <method signature="emiTest.testEMIResultIsDisplayed(double,double,java.lang.String)[pri:5, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testEMIResultIsDisplayed" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testEMICalculationFormulaCorrectness(double,double,java.lang.String)[pri:6, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testEMICalculationFormulaCorrectness" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testLoanCategory5000()[pri:7, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testLoanCategory5000" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testLoanCategory50001()[pri:8, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testLoanCategory50001" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testLoanCategory500001()[pri:9, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testLoanCategory500001" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testValidEMICalculation(double,double,java.lang.String)[pri:10, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testValidEMICalculation" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testPrintEMI()[pri:16, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testPrintEMI" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testPrincipalRounding()[pri:23, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testPrincipalRounding" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testLoanCategory()[pri:24, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testLoanCategory" class="com.selenium.emi_Tests.emiTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="emiTest.testNavigationToEMICalculator()[pri:1, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testNavigationToEMICalculator" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testPrincipalAmountFieldIsEnabled()[pri:2, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testPrincipalAmountFieldIsEnabled" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testInterestRateFieldIsEnabled()[pri:3, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testInterestRateFieldIsEnabled" class="com.selenium.emi_Tests.emiTest"/>
+        <method signature="emiTest.testPaymentTermFieldIsEnabled()[pri:4, instance:com.selenium.emi_Tests.emiTest@4504d271]" name="testPaymentTermFieldIsEnabled" class="com.selenium.emi_Tests.emiTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-07-05T13:10:05 IST" name="Edge Test" finished-at="2025-07-05T13:11:08 IST" duration-ms="63449">
+      <class name="com.selenium.emi_Tests.emiTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:05 IST" name="setUp" finished-at="2025-07-05T13:10:14 IST" duration-ms="9100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNavigationToEMICalculator()[pri:1, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:14 IST" name="testNavigationToEMICalculator" finished-at="2025-07-05T13:10:14 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToEMICalculator -->
+        <test-method signature="testPrincipalAmountFieldIsEnabled()[pri:2, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:14 IST" name="testPrincipalAmountFieldIsEnabled" finished-at="2025-07-05T13:10:15 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrincipalAmountFieldIsEnabled -->
+        <test-method signature="testInterestRateFieldIsEnabled()[pri:3, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:15 IST" name="testInterestRateFieldIsEnabled" finished-at="2025-07-05T13:10:15 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInterestRateFieldIsEnabled -->
+        <test-method signature="testPaymentTermFieldIsEnabled()[pri:4, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:15 IST" name="testPaymentTermFieldIsEnabled" finished-at="2025-07-05T13:10:15 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaymentTermFieldIsEnabled -->
+        <test-method signature="testEMIResultIsDisplayed(double,double,java.lang.String)[pri:5, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:16 IST" name="testEMIResultIsDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:20 IST" duration-ms="3547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultIsDisplayed -->
+        <test-method signature="testEMIResultIsDisplayed(double,double,java.lang.String)[pri:5, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:20 IST" name="testEMIResultIsDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:23 IST" duration-ms="2813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultIsDisplayed -->
+        <test-method signature="testEMIResultIsDisplayed(double,double,java.lang.String)[pri:5, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:23 IST" name="testEMIResultIsDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:25 IST" duration-ms="2638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultIsDisplayed -->
+        <test-method signature="testEMIResultIsDisplayed(double,double,java.lang.String)[pri:5, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:25 IST" name="testEMIResultIsDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:28 IST" duration-ms="2701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultIsDisplayed -->
+        <test-method signature="testEMIResultIsDisplayed(double,double,java.lang.String)[pri:5, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:28 IST" name="testEMIResultIsDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:31 IST" duration-ms="2496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[48 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultIsDisplayed -->
+        <test-method signature="testEMICalculationFormulaCorrectness(double,double,java.lang.String)[pri:6, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:31 IST" name="testEMICalculationFormulaCorrectness" data-provider="validEMIData" finished-at="2025-07-05T13:10:32 IST" duration-ms="964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMICalculationFormulaCorrectness -->
+        <test-method signature="testEMICalculationFormulaCorrectness(double,double,java.lang.String)[pri:6, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:32 IST" name="testEMICalculationFormulaCorrectness" data-provider="validEMIData" finished-at="2025-07-05T13:10:32 IST" duration-ms="627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMICalculationFormulaCorrectness -->
+        <test-method signature="testEMICalculationFormulaCorrectness(double,double,java.lang.String)[pri:6, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:32 IST" name="testEMICalculationFormulaCorrectness" data-provider="validEMIData" finished-at="2025-07-05T13:10:33 IST" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMICalculationFormulaCorrectness -->
+        <test-method signature="testEMICalculationFormulaCorrectness(double,double,java.lang.String)[pri:6, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:33 IST" name="testEMICalculationFormulaCorrectness" data-provider="validEMIData" finished-at="2025-07-05T13:10:34 IST" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMICalculationFormulaCorrectness -->
+        <test-method signature="testEMICalculationFormulaCorrectness(double,double,java.lang.String)[pri:6, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:34 IST" name="testEMICalculationFormulaCorrectness" data-provider="validEMIData" finished-at="2025-07-05T13:10:35 IST" duration-ms="1024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[48 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMICalculationFormulaCorrectness -->
+        <test-method signature="testLoanCategory5000()[pri:7, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:35 IST" name="testLoanCategory5000" finished-at="2025-07-05T13:10:35 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCategory5000 -->
+        <test-method signature="testLoanCategory50001()[pri:8, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:35 IST" name="testLoanCategory50001" finished-at="2025-07-05T13:10:35 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCategory50001 -->
+        <test-method signature="testLoanCategory500001()[pri:9, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:35 IST" name="testLoanCategory500001" finished-at="2025-07-05T13:10:36 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCategory500001 -->
+        <test-method signature="testValidEMICalculation(double,double,java.lang.String)[pri:10, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:36 IST" name="testValidEMICalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:36 IST" duration-ms="823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEMICalculation -->
+        <test-method signature="testValidEMICalculation(double,double,java.lang.String)[pri:10, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:36 IST" name="testValidEMICalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:37 IST" duration-ms="900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEMICalculation -->
+        <test-method signature="testValidEMICalculation(double,double,java.lang.String)[pri:10, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:37 IST" name="testValidEMICalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:38 IST" duration-ms="806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEMICalculation -->
+        <test-method signature="testValidEMICalculation(double,double,java.lang.String)[pri:10, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:38 IST" name="testValidEMICalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:39 IST" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEMICalculation -->
+        <test-method signature="testValidEMICalculation(double,double,java.lang.String)[pri:10, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:39 IST" name="testValidEMICalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:39 IST" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[48 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEMICalculation -->
+        <test-method signature="testPieChartDisplaysCorrectValues(double,double,java.lang.String)[pri:11, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:39 IST" name="testPieChartDisplaysCorrectValues" data-provider="validEMIData" finished-at="2025-07-05T13:10:40 IST" duration-ms="500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartDisplaysCorrectValues -->
+        <test-method signature="testPieChartDisplaysCorrectValues(double,double,java.lang.String)[pri:11, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:40 IST" name="testPieChartDisplaysCorrectValues" data-provider="validEMIData" finished-at="2025-07-05T13:10:41 IST" duration-ms="899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartDisplaysCorrectValues -->
+        <test-method signature="testPieChartDisplaysCorrectValues(double,double,java.lang.String)[pri:11, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:41 IST" name="testPieChartDisplaysCorrectValues" data-provider="validEMIData" finished-at="2025-07-05T13:10:41 IST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartDisplaysCorrectValues -->
+        <test-method signature="testPieChartDisplaysCorrectValues(double,double,java.lang.String)[pri:11, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:41 IST" name="testPieChartDisplaysCorrectValues" data-provider="validEMIData" finished-at="2025-07-05T13:10:41 IST" duration-ms="447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartDisplaysCorrectValues -->
+        <test-method signature="testPieChartDisplaysCorrectValues(double,double,java.lang.String)[pri:11, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:41 IST" name="testPieChartDisplaysCorrectValues" data-provider="validEMIData" finished-at="2025-07-05T13:10:42 IST" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[48 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartDisplaysCorrectValues -->
+        <test-method signature="testPieChartUpdatesAfterRecalculation(double,double,java.lang.String)[pri:12, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:42 IST" name="testPieChartUpdatesAfterRecalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:43 IST" duration-ms="597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartUpdatesAfterRecalculation -->
+        <test-method signature="testPieChartUpdatesAfterRecalculation(double,double,java.lang.String)[pri:12, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:43 IST" name="testPieChartUpdatesAfterRecalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:44 IST" duration-ms="1258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartUpdatesAfterRecalculation -->
+        <test-method signature="testPieChartUpdatesAfterRecalculation(double,double,java.lang.String)[pri:12, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:44 IST" name="testPieChartUpdatesAfterRecalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:45 IST" duration-ms="1426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartUpdatesAfterRecalculation -->
+        <test-method signature="testPieChartUpdatesAfterRecalculation(double,double,java.lang.String)[pri:12, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:45 IST" name="testPieChartUpdatesAfterRecalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:47 IST" duration-ms="1402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartUpdatesAfterRecalculation -->
+        <test-method signature="testPieChartUpdatesAfterRecalculation(double,double,java.lang.String)[pri:12, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:47 IST" name="testPieChartUpdatesAfterRecalculation" data-provider="validEMIData" finished-at="2025-07-05T13:10:47 IST" duration-ms="732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[48 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartUpdatesAfterRecalculation -->
+        <test-method signature="testBenefitsAndRisksDisplayed(double,double,java.lang.String)[pri:13, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:47 IST" name="testBenefitsAndRisksDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:48 IST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBenefitsAndRisksDisplayed -->
+        <test-method signature="testBenefitsAndRisksDisplayed(double,double,java.lang.String)[pri:13, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:48 IST" name="testBenefitsAndRisksDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:48 IST" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBenefitsAndRisksDisplayed -->
+        <test-method signature="testBenefitsAndRisksDisplayed(double,double,java.lang.String)[pri:13, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:48 IST" name="testBenefitsAndRisksDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:49 IST" duration-ms="500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBenefitsAndRisksDisplayed -->
+        <test-method signature="testBenefitsAndRisksDisplayed(double,double,java.lang.String)[pri:13, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:49 IST" name="testBenefitsAndRisksDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:49 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBenefitsAndRisksDisplayed -->
+        <test-method signature="testBenefitsAndRisksDisplayed(double,double,java.lang.String)[pri:13, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:49 IST" name="testBenefitsAndRisksDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:50 IST" duration-ms="399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[48 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBenefitsAndRisksDisplayed -->
+        <test-method signature="testMinimumInterestRateErrorMessage()[pri:14, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:50 IST" name="testMinimumInterestRateErrorMessage" finished-at="2025-07-05T13:10:50 IST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinimumInterestRateErrorMessage -->
+        <test-method signature="testEMIResultAndTotalPaymentBreakdownDisplayed(double,double,java.lang.String)[pri:15, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:50 IST" name="testEMIResultAndTotalPaymentBreakdownDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:51 IST" duration-ms="772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultAndTotalPaymentBreakdownDisplayed -->
+        <test-method signature="testEMIResultAndTotalPaymentBreakdownDisplayed(double,double,java.lang.String)[pri:15, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:51 IST" name="testEMIResultAndTotalPaymentBreakdownDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:52 IST" duration-ms="953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultAndTotalPaymentBreakdownDisplayed -->
+        <test-method signature="testEMIResultAndTotalPaymentBreakdownDisplayed(double,double,java.lang.String)[pri:15, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:52 IST" name="testEMIResultAndTotalPaymentBreakdownDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:53 IST" duration-ms="772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultAndTotalPaymentBreakdownDisplayed -->
+        <test-method signature="testEMIResultAndTotalPaymentBreakdownDisplayed(double,double,java.lang.String)[pri:15, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:53 IST" name="testEMIResultAndTotalPaymentBreakdownDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:54 IST" duration-ms="921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultAndTotalPaymentBreakdownDisplayed -->
+        <test-method signature="testEMIResultAndTotalPaymentBreakdownDisplayed(double,double,java.lang.String)[pri:15, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:54 IST" name="testEMIResultAndTotalPaymentBreakdownDisplayed" data-provider="validEMIData" finished-at="2025-07-05T13:10:55 IST" duration-ms="887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[48 months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMIResultAndTotalPaymentBreakdownDisplayed -->
+        <test-method signature="testPrintEMI()[pri:16, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:55 IST" name="testPrintEMI" finished-at="2025-07-05T13:10:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintEMI -->
+        <test-method signature="testLogoOverlap()[pri:17, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:55 IST" name="testLogoOverlap" finished-at="2025-07-05T13:10:55 IST" duration-ms="404" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Elements are overlapping.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Elements are overlapping.
+at com.selenium.emi_Tests.emiTest.testLogoOverlap(emiTest.java:314)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoOverlap -->
+        <test-method signature="testInterestOverflow()[pri:18, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:55 IST" name="testInterestOverflow" finished-at="2025-07-05T13:10:56 IST" duration-ms="816" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Interest amount is overflowing out of the frame. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Interest amount is overflowing out of the frame. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.selenium.emi_Tests.emiTest.testInterestOverflow(emiTest.java:346)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInterestOverflow -->
+        <test-method signature="testScrollFunctionality()[pri:19, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:56 IST" name="testScrollFunctionality" finished-at="2025-07-05T13:10:56 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollFunctionality -->
+        <test-method signature="testCalculateButtonDisabledForInvalidInterest()[pri:20, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:56 IST" name="testCalculateButtonDisabledForInvalidInterest" finished-at="2025-07-05T13:10:57 IST" duration-ms="145" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at com.selenium.emi_Tests.emiTest.testCalculateButtonDisabledForInvalidInterest(emiTest.java:364)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateButtonDisabledForInvalidInterest -->
+        <test-method signature="testPieChartInterestCalculationForExtremeInterest()[pri:21, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:57 IST" name="testPieChartInterestCalculationForExtremeInterest" finished-at="2025-07-05T13:10:57 IST" duration-ms="222" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pie chart should not be displayed or should show no interest for invalid input.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pie chart should not be displayed or should show no interest for invalid input.
+at org.testng.Assert.fail(Assert.java:111)
+at com.selenium.emi_Tests.emiTest.testPieChartInterestCalculationForExtremeInterest(emiTest.java:388)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPieChartInterestCalculationForExtremeInterest -->
+        <test-method signature="testPaymentTermIsInput()[pri:22, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:57 IST" name="testPaymentTermIsInput" finished-at="2025-07-05T13:10:57 IST" duration-ms="25" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at com.selenium.emi_Tests.emiTest.testPaymentTermIsInput(emiTest.java:398)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaymentTermIsInput -->
+        <test-method signature="testPrincipalRounding()[pri:23, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:57 IST" name="testPrincipalRounding" finished-at="2025-07-05T13:10:58 IST" duration-ms="1261" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at com.selenium.emi_Tests.emiTest.testPrincipalRounding(emiTest.java:409)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrincipalRounding -->
+        <test-method signature="testLoanCategory()[pri:24, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:58 IST" name="testLoanCategory" finished-at="2025-07-05T13:10:58 IST" duration-ms="368" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at com.selenium.emi_Tests.emiTest.testLoanCategory(emiTest.java:419)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCategory -->
+        <test-method signature="testHighLoanWarning()[pri:25, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:10:58 IST" name="testHighLoanWarning" finished-at="2025-07-05T13:11:04 IST" duration-ms="5792" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (0b66c3bd3d119497ec00f0a6997590bb)] -> id: highLoanWarning] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55225}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\2401039\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55225/devtoo..., se:cdpVersion: 138.0.3351.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b66c3bd3d119497ec00f0a6997590bb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (0b66c3bd3d119497ec00f0a6997590bb)] -> id: highLoanWarning] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55225}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\2401039\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55225/devtoo..., se:cdpVersion: 138.0.3351.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b66c3bd3d119497ec00f0a6997590bb
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.selenium.emi_Tests.emiTest.testHighLoanWarning(emiTest.java:429)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighLoanWarning -->
+        <test-method signature="testCalculateButtonDisabledForExcessiveLoan()[pri:26, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:11:04 IST" name="testCalculateButtonDisabledForExcessiveLoan" finished-at="2025-07-05T13:11:04 IST" duration-ms="209" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at com.selenium.emi_Tests.emiTest.testCalculateButtonDisabledForExcessiveLoan(emiTest.java:438)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateButtonDisabledForExcessiveLoan -->
+        <test-method signature="testHighLoanWarningForMidRangeAmount()[pri:27, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:11:04 IST" name="testHighLoanWarningForMidRangeAmount" finished-at="2025-07-05T13:11:05 IST" duration-ms="301" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at com.selenium.emi_Tests.emiTest.testHighLoanWarningForMidRangeAmount(emiTest.java:450)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighLoanWarningForMidRangeAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.emi_Tests.emiTest@4504d271]" started-at="2025-07-05T13:11:05 IST" name="tearDown" finished-at="2025-07-05T13:11:08 IST" duration-ms="3596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.emi_Tests.emiTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>

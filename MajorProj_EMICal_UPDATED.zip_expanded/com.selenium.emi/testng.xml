@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserSuite" parallel="tests" thread-count="3">
+  <listeners>
+    <listener class-name="com.selenium.emi_Utility.Listener"/>
+  </listeners>
+
+  <!--  <test name="Chrome Test">
+    <parameter name="browser" value="chrome"/>
+     <groups>
+      <run>
+        <exclude name="validEMIData"/>
+        <exclude name="regression"/>
+        <exclude name="ui"/>
+        <include name="smoke"/>
+        <exclude name="negative"/>
+      </run>
+    </groups> 
+    <classes>
+      <class name="com.selenium.emi_Tests.emiTest"/>
+    </classes>
+  </test> -->
+
+  <test name="Edge Test">
+    <parameter name="browser" value="edge"/>
+    <!-- <groups>
+      <run>
+        <exclude name="validEMIData"/>
+        <exclude name="regression"/>
+        <exclude name="ui"/>
+        <include name="smoke"/>
+        <exclude name="negative"/>
+      </run>
+    </groups> -->
+    <classes>
+      <class name="com.selenium.emi_Tests.emiTest"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.selenium.emi_Tests.emiTest">
+        <methods>
+          <include name="testLoanCategory"/>
+          <include name="testLoanCategory5000"/>
+          <include name="testEMIResultAndTotalPaymentBreakdownDisplayed"/>
+          <include name="testNavigationToEMICalculator"/>
+          <include name="testMinimumInterestRateErrorMessage"/>
+          <include name="testValidEMICalculation"/>
+          <include name="testLoanCategory50001"/>
+          <include name="testEMICalculationFormulaCorrectness"/>
+          <include name="testHighLoanWarning"/>
+          <include name="testPaymentTermIsInput"/>
+          <include name="tearDown"/>
+          <include name="testPrincipalRounding"/>
+          <include name="testPieChartDisplaysCorrectValues"/>
+          <include name="testCalculateButtonDisabledForExcessiveLoan"/>
+          <include name="testLogoOverlap"/>
+          <include name="testPrintEMI"/>
+          <include name="testPieChartUpdatesAfterRecalculation"/>
+          <include name="testPrincipalAmountFieldIsEnabled"/>
+          <include name="testPaymentTermFieldIsEnabled"/>
+          <include name="setUp"/>
+          <include name="testBenefitsAndRisksDisplayed"/>
+          <include name="testScrollFunctionality"/>
+          <include name="testEMIResultIsDisplayed"/>
+          <include name="testPieChartInterestCalculationForExtremeInterest"/>
+          <include name="testCalculateButtonDisabledForInvalidInterest"/>
+          <include name="testHighLoanWarningForMidRangeAmount"/>
+          <include name="testInterestOverflow"/>
+          <include name="testLoanCategory500001"/>
+          <include name="testInterestRateFieldIsEnabled"/>
+        </methods>
+      </class> <!-- com.selenium.emi_Tests.emiTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

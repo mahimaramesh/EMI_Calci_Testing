@@ -1,0 +1,3020 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Automation Report</title>
+    <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+    <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+    <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/24cb10e/spark/css/style.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head><script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="test-view -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Test Report</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Jul 5, 2025 01:10:05 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-ex" class="dropdown-toggle" href="exception.html">
+          <span class="icon-holder">
+            <i class="fa fa-bug"></i>
+          </span>
+          <span class="title">Exception</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+                                    <li class="user-profile dropdown dropdown-animated scale-left">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <i class="fa fa-exclamation-circle"></i>
+                                        </a>
+                                        <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+                                            <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+	                                        <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
+	                                        
+	                                        
+	                                        
+	                                        
+	                                        <div class="dropdown-divider"></div>
+                                            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+                                    <li class="test-item"  status="pass" test-id="1"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testNavigationToEMICalculator</p> 
+                                                <p class="duration text-sm">0h 0m 0s+98ms</p> 
+                                                <span class="datetime">13:10:14 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testNavigationToEMICalculator</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:14</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:14</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+98ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:14 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="2"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPrincipalAmountFieldIsEnabled</p> 
+                                                <p class="duration text-sm">0h 0m 0s+88ms</p> 
+                                                <span class="datetime">13:10:14 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPrincipalAmountFieldIsEnabled</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:14</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:15</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+88ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:15 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="3"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testInterestRateFieldIsEnabled</p> 
+                                                <p class="duration text-sm">0h 0m 0s+70ms</p> 
+                                                <span class="datetime">13:10:15 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testInterestRateFieldIsEnabled</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:15</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:15</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+70ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:15 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="4"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPaymentTermFieldIsEnabled</p> 
+                                                <p class="duration text-sm">0h 0m 0s+74ms</p> 
+                                                <span class="datetime">13:10:15 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPaymentTermFieldIsEnabled</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:15</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:15</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+74ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:15 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="5"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultIsDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 3s+546ms</p> 
+                                                <span class="datetime">13:10:16 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultIsDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:16</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:20</span>
+                                                        <span class='badge badge-default'>0h 0m 3s+546ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:20 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="6"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultIsDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 2s+812ms</p> 
+                                                <span class="datetime">13:10:20 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultIsDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:20</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:23</span>
+                                                        <span class='badge badge-default'>0h 0m 2s+812ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:23 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="7"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultIsDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 2s+634ms</p> 
+                                                <span class="datetime">13:10:23 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultIsDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:23</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:25</span>
+                                                        <span class='badge badge-default'>0h 0m 2s+634ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:25 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="8"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultIsDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 2s+698ms</p> 
+                                                <span class="datetime">13:10:25 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultIsDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:25</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:28</span>
+                                                        <span class='badge badge-default'>0h 0m 2s+698ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:28 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="9"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultIsDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 2s+495ms</p> 
+                                                <span class="datetime">13:10:28 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultIsDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:28</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:31</span>
+                                                        <span class='badge badge-default'>0h 0m 2s+495ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:31 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="10"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMICalculationFormulaCorrectness</p> 
+                                                <p class="duration text-sm">0h 0m 0s+963ms</p> 
+                                                <span class="datetime">13:10:31 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMICalculationFormulaCorrectness</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:31</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:32</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+963ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:32 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="11"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMICalculationFormulaCorrectness</p> 
+                                                <p class="duration text-sm">0h 0m 0s+624ms</p> 
+                                                <span class="datetime">13:10:32 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMICalculationFormulaCorrectness</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:32</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:32</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+624ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:32 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="12"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMICalculationFormulaCorrectness</p> 
+                                                <p class="duration text-sm">0h 0m 0s+671ms</p> 
+                                                <span class="datetime">13:10:32 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMICalculationFormulaCorrectness</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:32</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:33</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+671ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:33 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="13"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMICalculationFormulaCorrectness</p> 
+                                                <p class="duration text-sm">0h 0m 0s+714ms</p> 
+                                                <span class="datetime">13:10:33 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMICalculationFormulaCorrectness</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:33</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:34</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+714ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:34 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="14"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMICalculationFormulaCorrectness</p> 
+                                                <p class="duration text-sm">0h 0m 1s+15ms</p> 
+                                                <span class="datetime">13:10:34 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMICalculationFormulaCorrectness</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:34</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:35</span>
+                                                        <span class='badge badge-default'>0h 0m 1s+15ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:35 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="15"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testLoanCategory5000</p> 
+                                                <p class="duration text-sm">0h 0m 0s+264ms</p> 
+                                                <span class="datetime">13:10:35 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testLoanCategory5000</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:35</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:35</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+264ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:35 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="16"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testLoanCategory50001</p> 
+                                                <p class="duration text-sm">0h 0m 0s+293ms</p> 
+                                                <span class="datetime">13:10:35 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testLoanCategory50001</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:35</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:35</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+293ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:35 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="17"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testLoanCategory500001</p> 
+                                                <p class="duration text-sm">0h 0m 0s+260ms</p> 
+                                                <span class="datetime">13:10:35 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testLoanCategory500001</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:35</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:36</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+260ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:36 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="18"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testValidEMICalculation</p> 
+                                                <p class="duration text-sm">0h 0m 0s+822ms</p> 
+                                                <span class="datetime">13:10:36 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testValidEMICalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:36</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:36</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+822ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:36 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="19"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testValidEMICalculation</p> 
+                                                <p class="duration text-sm">0h 0m 0s+898ms</p> 
+                                                <span class="datetime">13:10:36 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testValidEMICalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:36</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:37</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+898ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:37 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="20"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testValidEMICalculation</p> 
+                                                <p class="duration text-sm">0h 0m 0s+808ms</p> 
+                                                <span class="datetime">13:10:37 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testValidEMICalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:37</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:38</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+808ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:38 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="21"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testValidEMICalculation</p> 
+                                                <p class="duration text-sm">0h 0m 0s+596ms</p> 
+                                                <span class="datetime">13:10:38 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testValidEMICalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:38</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:39</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+596ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:39 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="22"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testValidEMICalculation</p> 
+                                                <p class="duration text-sm">0h 0m 0s+380ms</p> 
+                                                <span class="datetime">13:10:39 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testValidEMICalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:39</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:39</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+380ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:39 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="23"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartDisplaysCorrectValues</p> 
+                                                <p class="duration text-sm">0h 0m 0s+500ms</p> 
+                                                <span class="datetime">13:10:39 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartDisplaysCorrectValues</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:39</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:40</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+500ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:40 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="24"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartDisplaysCorrectValues</p> 
+                                                <p class="duration text-sm">0h 0m 0s+895ms</p> 
+                                                <span class="datetime">13:10:40 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartDisplaysCorrectValues</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:40</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:41</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+895ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:41 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="25"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartDisplaysCorrectValues</p> 
+                                                <p class="duration text-sm">0h 0m 0s+471ms</p> 
+                                                <span class="datetime">13:10:41 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartDisplaysCorrectValues</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:41</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:41</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+471ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:41 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="26"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartDisplaysCorrectValues</p> 
+                                                <p class="duration text-sm">0h 0m 0s+445ms</p> 
+                                                <span class="datetime">13:10:41 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartDisplaysCorrectValues</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:41</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:41</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+445ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:41 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="27"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartDisplaysCorrectValues</p> 
+                                                <p class="duration text-sm">0h 0m 0s+468ms</p> 
+                                                <span class="datetime">13:10:41 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartDisplaysCorrectValues</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:41</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:42</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+468ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:42 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="28"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartUpdatesAfterRecalculation</p> 
+                                                <p class="duration text-sm">0h 0m 0s+596ms</p> 
+                                                <span class="datetime">13:10:42 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartUpdatesAfterRecalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:42</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:43</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+596ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:43 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="29"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartUpdatesAfterRecalculation</p> 
+                                                <p class="duration text-sm">0h 0m 1s+257ms</p> 
+                                                <span class="datetime">13:10:43 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartUpdatesAfterRecalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:43</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:44</span>
+                                                        <span class='badge badge-default'>0h 0m 1s+257ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:44 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="30"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartUpdatesAfterRecalculation</p> 
+                                                <p class="duration text-sm">0h 0m 1s+423ms</p> 
+                                                <span class="datetime">13:10:44 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartUpdatesAfterRecalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:44</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:45</span>
+                                                        <span class='badge badge-default'>0h 0m 1s+423ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:45 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="31"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartUpdatesAfterRecalculation</p> 
+                                                <p class="duration text-sm">0h 0m 1s+396ms</p> 
+                                                <span class="datetime">13:10:45 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartUpdatesAfterRecalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:45</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:47</span>
+                                                        <span class='badge badge-default'>0h 0m 1s+396ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:47 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="32"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartUpdatesAfterRecalculation</p> 
+                                                <p class="duration text-sm">0h 0m 0s+730ms</p> 
+                                                <span class="datetime">13:10:47 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPieChartUpdatesAfterRecalculation</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:47</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:47</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+730ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:47 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="33"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testBenefitsAndRisksDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+450ms</p> 
+                                                <span class="datetime">13:10:47 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testBenefitsAndRisksDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:47</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:48</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+450ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:48 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="34"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testBenefitsAndRisksDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+466ms</p> 
+                                                <span class="datetime">13:10:48 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testBenefitsAndRisksDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:48</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:48</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+466ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:48 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="35"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testBenefitsAndRisksDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+499ms</p> 
+                                                <span class="datetime">13:10:48 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testBenefitsAndRisksDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:48</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:49</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+499ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:49 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="36"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testBenefitsAndRisksDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+479ms</p> 
+                                                <span class="datetime">13:10:49 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testBenefitsAndRisksDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:49</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:49</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+479ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:49 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="37"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testBenefitsAndRisksDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+399ms</p> 
+                                                <span class="datetime">13:10:49 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testBenefitsAndRisksDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:49</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:50</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+399ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:50 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="38"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testMinimumInterestRateErrorMessage</p> 
+                                                <p class="duration text-sm">0h 0m 0s+641ms</p> 
+                                                <span class="datetime">13:10:50 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testMinimumInterestRateErrorMessage</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:50</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:50</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+641ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:50 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="39"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultAndTotalPaymentBreakdownDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+769ms</p> 
+                                                <span class="datetime">13:10:50 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultAndTotalPaymentBreakdownDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:50</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:51</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+769ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:51 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="40"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultAndTotalPaymentBreakdownDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+952ms</p> 
+                                                <span class="datetime">13:10:51 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultAndTotalPaymentBreakdownDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:51</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:52</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+952ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:52 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="41"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultAndTotalPaymentBreakdownDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+769ms</p> 
+                                                <span class="datetime">13:10:52 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultAndTotalPaymentBreakdownDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:52</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:53</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+769ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:53 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="42"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultAndTotalPaymentBreakdownDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+918ms</p> 
+                                                <span class="datetime">13:10:53 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultAndTotalPaymentBreakdownDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:53</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:54</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+918ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:54 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="43"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testEMIResultAndTotalPaymentBreakdownDisplayed</p> 
+                                                <p class="duration text-sm">0h 0m 0s+883ms</p> 
+                                                <span class="datetime">13:10:54 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testEMIResultAndTotalPaymentBreakdownDisplayed</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:54</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:55</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+883ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:55 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="44"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPrintEMI</p> 
+                                                <p class="duration text-sm">0h 0m 0s+0ms</p> 
+                                                <span class="datetime">13:10:55 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testPrintEMI</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:55</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:55</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+0ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:55 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="45"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testLogoOverlap</p> 
+                                                <p class="duration text-sm">0h 0m 0s+407ms</p> 
+                                                <span class="datetime">13:10:55 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testLogoOverlap</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:55</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:55</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+407ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:10:55 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError: Elements are overlapping.
+	at com.selenium.emi_Tests.emiTest.testLogoOverlap(emiTest.java:314)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="46"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testInterestOverflow</p> 
+                                                <p class="duration text-sm">0h 0m 0s+815ms</p> 
+                                                <span class="datetime">13:10:55 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testInterestOverflow</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:55</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:56</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+815ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:10:56 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError: Interest amount is overflowing out of the frame. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.selenium.emi_Tests.emiTest.testInterestOverflow(emiTest.java:346)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="pass" test-id="47"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar pass-bg">
+                                            <i class="fa fa-check text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testScrollFunctionality</p> 
+                                                <p class="duration text-sm">0h 0m 0s+435ms</p> 
+                                                <span class="datetime">13:10:56 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-pass">testScrollFunctionality</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:56</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:56</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+435ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>1:10:56 PM</td>
+				<td>
+						Test Passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="48"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testCalculateButtonDisabledForInvalidInterest</p> 
+                                                <p class="duration text-sm">0h 0m 0s+142ms</p> 
+                                                <span class="datetime">13:10:56 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testCalculateButtonDisabledForInvalidInterest</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:56</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:57</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+142ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:10:57 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError
+	at com.selenium.emi_Tests.emiTest.testCalculateButtonDisabledForInvalidInterest(emiTest.java:364)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="49"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPieChartInterestCalculationForExtremeInterest</p> 
+                                                <p class="duration text-sm">0h 0m 0s+221ms</p> 
+                                                <span class="datetime">13:10:57 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testPieChartInterestCalculationForExtremeInterest</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:57</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:57</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+221ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:10:57 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError: Pie chart should not be displayed or should show no interest for invalid input.
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.selenium.emi_Tests.emiTest.testPieChartInterestCalculationForExtremeInterest(emiTest.java:388)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="50"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPaymentTermIsInput</p> 
+                                                <p class="duration text-sm">0h 0m 0s+24ms</p> 
+                                                <span class="datetime">13:10:57 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testPaymentTermIsInput</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:57</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:57</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+24ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:10:57 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError
+	at com.selenium.emi_Tests.emiTest.testPaymentTermIsInput(emiTest.java:398)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="51"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testPrincipalRounding</p> 
+                                                <p class="duration text-sm">0h 0m 1s+261ms</p> 
+                                                <span class="datetime">13:10:57 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testPrincipalRounding</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:57</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:58</span>
+                                                        <span class='badge badge-default'>0h 0m 1s+261ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:10:58 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError
+	at com.selenium.emi_Tests.emiTest.testPrincipalRounding(emiTest.java:409)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="52"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testLoanCategory</p> 
+                                                <p class="duration text-sm">0h 0m 0s+366ms</p> 
+                                                <span class="datetime">13:10:58 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testLoanCategory</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:58</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:10:58</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+366ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:10:58 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError
+	at com.selenium.emi_Tests.emiTest.testLoanCategory(emiTest.java:419)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="53"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testHighLoanWarning</p> 
+                                                <p class="duration text-sm">0h 0m 5s+790ms</p> 
+                                                <span class="datetime">13:10:58 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testHighLoanWarning</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:10:58</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:11:04</span>
+                                                        <span class='badge badge-default'>0h 0m 5s+790ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:11:04 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (0b66c3bd3d119497ec00f0a6997590bb)] -> id: highLoanWarning] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55225}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\2401039\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55225/devtoo..., se:cdpVersion: 138.0.3351.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b66c3bd3d119497ec00f0a6997590bb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.selenium.emi_Tests.emiTest.testHighLoanWarning(emiTest.java:429)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="54"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testCalculateButtonDisabledForExcessiveLoan</p> 
+                                                <p class="duration text-sm">0h 0m 0s+210ms</p> 
+                                                <span class="datetime">13:11:04 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testCalculateButtonDisabledForExcessiveLoan</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:11:04</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:11:04</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+210ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:11:04 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError
+	at com.selenium.emi_Tests.emiTest.testCalculateButtonDisabledForExcessiveLoan(emiTest.java:438)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                    <li class="test-item"  status="fail" test-id="55"
+                                            author=""
+                                            tag=""
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">testHighLoanWarningForMidRangeAmount</p> 
+                                                <p class="duration text-sm">0h 0m 0s+300ms</p> 
+                                                <span class="datetime">13:11:04 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">testHighLoanWarningForMidRangeAmount</h5>
+                                                        <span class='badge badge-success'>07.05.2025 13:11:04</span>
+                                                        <span class='badge badge-danger'>07.05.2025 13:11:05</span>
+                                                        <span class='badge badge-default'>0h 0m 0s+300ms</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>1:11:05 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError
+	at com.selenium.emi_Tests.emiTest.testHighLoanWarningForMidRangeAmount(emiTest.java:450)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+                                        </div>
+                                    </li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/24cb10e/spark/js/script.js"></script>
+</body>
+</html>

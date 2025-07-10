@@ -1,0 +1,406 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Automation Report</title>
+    <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+    <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+    <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/24cb10e/spark/css/style.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>	<body class="dashboard-view standard">
+		<div class="app header-dark side-nav-folded">
+			<div class="layout">
+<div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Test Report</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Jul 5, 2025 01:10:05 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-ex" class="dropdown-toggle" href="exception.html">
+          <span class="icon-holder">
+            <i class="fa fa-bug"></i>
+          </span>
+          <span class="title">Exception</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+				<div class="page-container">
+					<div class="main-content">
+						<div class="container-fluid p-4">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="card">
+										<div class="card-header">
+											<h6 class="card-title">Tests</h6>
+										</div>
+										<div class="card-body">
+	                                        <div class="">
+	                                            <canvas id='parent-analysis' width='115' height='90'></canvas>
+	                                        </div>
+	                                    </div>
+	                                    <div class="card-footer">
+	                                    	<div><small data-tooltip='81.818%'>
+	                                    		<b>45</b> tests passed
+                                    		</small></div>
+	                                    	<div>
+	                                    		<small data-tooltip='18.182%'><b>10</b> tests failed, 
+	                                    		<b data-tooltip='0%'>0</b> others
+	                                    		</small>
+                                    		</div>
+	                                    </div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body box-height-150">
+	                                        <div class="media justify-content-between">
+												<div>
+													<p class="">Tests</p>
+													<h2 class="font-size-28 font-weight-light">55</h2>
+													<span class="text-semibold text-success font-size-15">
+													<i class="ti-arrow-up font-size-11"></i> 
+														<span>81.82%</span>
+													</span>
+												</div>
+												<div class="align-self-end">
+													<i class="fa fa-align-left font-size-70 opacity-01"></i>
+												</div>
+											</div>
+	                                    </div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body box-height-150">
+	                                        <div class="media justify-content-between">
+												<div>
+													<p class="">Start</p>
+													<h6 class="font-weight-light">Jul 5, 2025 01:10:05 PM</h6>
+													<span class="text-semibold text-success font-size-15">
+												</div>
+												<div class="align-self-end">
+													<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+												</div>
+											</div>
+	                                    </div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body box-height-150">
+	                                        <div class="media justify-content-between">
+												<div>
+													<p class="">Duration</p>
+													<h6 class="font-weight-light">0h 1m 3s+409ms</h6>
+													<span class="text-semibold font-size-15">
+												</div>
+												<div class="align-self-end">
+													<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+												</div>
+											</div>
+	                                    </div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="card">
+										<div class="card-header">
+											<h6 class="card-title">Timeline</h6>
+										</div>
+										<div class="card-body">
+	                                        <div class="">
+	                                            <canvas id="timeline" height="120"></canvas>
+	                                        </div>
+	                                    </div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="card">
+										<div class="card-header">
+											<h6 class="card-title">Environment</h6>
+										</div>
+										<div class="table-overflow">
+											<table class="table table-sm">
+												<thead>
+													<tr class="bg-gray">
+														<th>Name</th>
+														<th>Value</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Environment</td>
+														<td>QA</td>
+													</tr>
+													<tr>
+														<td>User</td>
+														<td>Tester</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			var statusGroup = {
+                parentCount: 55,
+				passParent: 45,
+				failParent: 10,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 10,
+				childCount: 0,
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "testNavigationToEMICalculator":0.098,"testPrincipalAmountFieldIsEnabled":0.088,"testInterestRateFieldIsEnabled":0.07,"testPaymentTermFieldIsEnabled":0.074,"testEMIResultIsDisplayed":3.546,"testEMIResultIsDisplayed":2.812,"testEMIResultIsDisplayed":2.634,"testEMIResultIsDisplayed":2.698,"testEMIResultIsDisplayed":2.495,"testEMICalculationFormulaCorrectness":0.963,"testEMICalculationFormulaCorrectness":0.624,"testEMICalculationFormulaCorrectness":0.671,"testEMICalculationFormulaCorrectness":0.714,"testEMICalculationFormulaCorrectness":1.015,"testLoanCategory5000":0.264,"testLoanCategory50001":0.293,"testLoanCategory500001":0.26,"testValidEMICalculation":0.822,"testValidEMICalculation":0.898,"testValidEMICalculation":0.808,"testValidEMICalculation":0.596,"testValidEMICalculation":0.38,"testPieChartDisplaysCorrectValues":0.5,"testPieChartDisplaysCorrectValues":0.895,"testPieChartDisplaysCorrectValues":0.471,"testPieChartDisplaysCorrectValues":0.445,"testPieChartDisplaysCorrectValues":0.468,"testPieChartUpdatesAfterRecalculation":0.596,"testPieChartUpdatesAfterRecalculation":1.257,"testPieChartUpdatesAfterRecalculation":1.423,"testPieChartUpdatesAfterRecalculation":1.396,"testPieChartUpdatesAfterRecalculation":0.73,"testBenefitsAndRisksDisplayed":0.45,"testBenefitsAndRisksDisplayed":0.466,"testBenefitsAndRisksDisplayed":0.499,"testBenefitsAndRisksDisplayed":0.479,"testBenefitsAndRisksDisplayed":0.399,"testMinimumInterestRateErrorMessage":0.641,"testEMIResultAndTotalPaymentBreakdownDisplayed":0.769,"testEMIResultAndTotalPaymentBreakdownDisplayed":0.952,"testEMIResultAndTotalPaymentBreakdownDisplayed":0.769,"testEMIResultAndTotalPaymentBreakdownDisplayed":0.918,"testEMIResultAndTotalPaymentBreakdownDisplayed":0.883,"testPrintEMI":0,"testLogoOverlap":0.407,"testInterestOverflow":0.815,"testScrollFunctionality":0.435,"testCalculateButtonDisabledForInvalidInterest":0.142,"testPieChartInterestCalculationForExtremeInterest":0.221,"testPaymentTermIsInput":0.024,"testPrincipalRounding":1.261,"testLoanCategory":0.366,"testHighLoanWarning":5.79,"testCalculateButtonDisabledForExcessiveLoan":0.21,"testHighLoanWarningForMidRangeAmount":0.3
+			};
+		</script>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/24cb10e/spark/js/script.js"></script>
+		<script>
+            /* -- [ chart options ] -- */
+            var options = {
+              responsive: true,
+              maintainAspectRatio: false,
+              legend: {
+                  position: "right",
+                  labels: {
+                      boxWidth: 10,
+                      fontSize: 11,
+                      lineHeight: 1,
+                      fontFamily: "Source Sans Pro",
+                      padding: 1
+                  }
+              },
+              cutoutPercentage: 65
+            };
+
+            function drawChart(ctx, config) {
+                ctx.width = 100;
+                ctx.height = 80;
+                new Chart(ctx, config);
+            }
+
+            /* -- [ parent chart ] -- */
+            (function drawParentChart() {
+                if (typeof statusGroup !== "undefined") {
+                    var config = {
+                        type: 'doughnut',
+                            data: {
+                                datasets: [{
+                                    borderColor: 'transparent',
+                                    data: [
+                                        statusGroup.passParent, statusGroup.failParent, statusGroup.fatalParent, statusGroup.errorParent, statusGroup.warningParent, statusGroup.skipParent
+                                    ],
+                                    backgroundColor: [
+                                        "#00af00", "#F7464A", "#8b0000", "#ff6347", "#FDB45C", "#1e90ff"
+                                    ]
+                                }],
+                                labels: [ "Pass", "Fail", "Fatal", "Error", "Warning", "Skip" ]
+                            },
+                            options: options
+                        };
+
+                        var ctx = document.getElementById("parent-analysis").getContext('2d');
+                        drawChart(ctx, config);
+                }
+            })();
+
+            /* -- [ children chart ] -- */
+            (function drawChildChart() {
+                if (typeof statusGroup !== "undefined" && statusGroup.childCount > 0) {
+                    var config = {
+                        type: 'doughnut',
+                        data: {
+                            datasets: [{
+                                borderColor: 'transparent',
+                                data: [
+                                    statusGroup.passChild, statusGroup.failChild, statusGroup.fatalChild, statusGroup.errorChild, statusGroup.warningChild, statusGroup.skipChild,statusGroup.infoChild
+                                ],
+                                backgroundColor: [
+                                    "#00af00", "#F7464A", "#8b0000", "#ff6347", "#FDB45C", "#1e90ff", "#46BFBD"
+                                ]
+                            }],
+                            labels: [ "Pass", "Fail", "Fatal", "Error", "Warning", "Skip", "Info" ]
+                        },
+                        options: options
+                    };
+
+                    var ctx = document.getElementById("child-analysis").getContext('2d');
+                    drawChart(ctx, config);
+                }
+            })();
+
+            /* -- [ grand-children chart ] -- */
+            (function drawGrandChildChart() {
+                if ($('#grandchild-analysis').length > 0 && typeof statusGroup !== "undefined" && statusGroup.grandChildCount > 0) {
+                    var config = {
+                        type: 'doughnut',
+                        data: {
+                            datasets: [{
+                                borderColor: 'transparent',
+                                data: [
+                                    statusGroup.passGrandChild, statusGroup.failGrandChild, statusGroup.fatalGrandChild, statusGroup.errorGrandChild, statusGroup.warningGrandChild, statusGroup.skipGrandChild, statusGroup.infoGrandChild
+                                ],
+                                backgroundColor: [
+                                    "#00af00", "#F7464A", "#8b0000", "#ff6347", "#FDB45C", "#1e90ff", "#46BFBD"
+                                ]
+                            }],
+                            labels: [ "Pass", "Fail", "Fatal", "Error", "Warning", "Skip", "Info" ]
+                        },
+                        options: options
+                    };
+
+                    var ctx = document.getElementById("grandchild-analysis").getContext('2d');
+                    drawChart(ctx, config);
+                }
+            })();
+
+            /* -- [ timeline ] -- */
+            function getRandomColor() {
+                var letters = '0123456789ABCDEF';
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+
+            (function drawTimelineChart() {
+                if (typeof timeline !== "undefined") {
+                    var datasets = [];
+                    for (var key in timeline) {
+                        datasets.push({ label:key, data:[timeline[key]], backgroundColor: getRandomColor(), borderWidth: 1 });
+                    }
+                    var ctx = document.getElementById('timeline').getContext('2d');
+
+                    new Chart(ctx, {
+                        type: 'horizontalBar',
+                        data: {
+                            datasets: datasets
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            tooltips: {
+                                mode: 'point'
+                            },
+                            scales: {
+                                xAxes: [{
+                                    stacked: true,
+                                    gridLines: false
+                                }],
+                                yAxes: [{
+                                    stacked: true,
+                                    gridLines: false,
+                                    barThickness: 25
+                                }]
+                            },
+                            legend: {
+                                display: false
+                            }
+                        }
+                    });
+                }
+            })();
+        </script>
+	</body>
+</html>
